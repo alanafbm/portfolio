@@ -104,7 +104,7 @@ body {
     padding: 2rem;
 }
 
-/*-- Section3 --*/
+/*-- Section 3 --*/
 
 .mywork {
     display: flex;
@@ -120,8 +120,7 @@ body {
 .mywork-container-cards {
     display: flex;
     flex-direction: column;
-    max-width: 960px;
-    max-height: 800px;
+    
   
 }
 .responsive {
@@ -129,13 +128,19 @@ body {
     height: auto;
 }
 .mywork-cards {
+    padding: 5px 5px 0 5px;
+    margin: 60px;
+    border: 4px solid var(--clr-secondary);
+    border-radius: 3px;
+    max-width: 800px;
+    max-height: 800px;
    
 }
-.card1 {
-
+.card-1 {
+    
     
 }
-.card2 {
+.card-2 {
   
   
 }
@@ -150,9 +155,14 @@ body {
     
 }
 .contact-p {
-    padding: 4rem;
+    padding: 2rem 1rem;
     color: var(--clr-secondary);
     font-size: 25px;
     font-weight: bold;
+}
+.contact-icon {
+    display: flex;
+    margin-bottom: 3rem;
+    text-decoration: none;
 }
 
